@@ -7,7 +7,7 @@ public class Even_OddINSwitch {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your number: ");
+        System.out.print("Enter your number: ");
         a=input.nextInt();
 
         switch(a%2){
@@ -17,7 +17,7 @@ public class Even_OddINSwitch {
 
                 break;
             case 1:
-                System.out.println("THe number is odd");
+                System.out.println("Tee number is odd");
 
                 break;
         }
